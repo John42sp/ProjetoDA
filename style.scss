@@ -1,0 +1,28 @@
+$principal: #cd33b0;
+
+.jumbotron{
+    padding-top: 200px; 
+    padding-bottom: 200px;
+    background-image: url('https://images.unsplash.com/photo-1563759553854-95ea771b8932?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=648&q=80');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fefefe;
+  }
+  #over-hero{
+    margin-top: -150px;
+   .card{
+      transition: .2s ease;
+      &:hover{
+        transform: scale(1.1);
+      }
+      .card-body{
+        .card-title{
+          color: $principal;
+        }
+      }
+    }
+  }
+  section{
+    padding-top: 50px; 
+    padding-bottom: 50px;
+  }
